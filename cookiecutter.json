@@ -1,0 +1,9 @@
+{
+    "project_name": "",
+    "project_slug": "{{ cookiecutter.project_name | slugify }}",
+    "author": "bn-l",
+    "description": "",
+    "__prompts__": {
+        "project_name": "Human readable name all lowercase. Converted automatically where needed"
+    }
+}
