@@ -19,8 +19,15 @@ The base template (createde by choosing "library" when running `npm create svelt
 - Automatically sets exports in package.json to index.js in dist (which corresponds to index.ts in lib). 
     - When running the `package` npm script the contents of lib will get built to this dir but other dirs will be ignored
 
+#### To note:
 
+- [Avoid](https://kit.svelte.dev/docs/packaging#best-practices) using sveltekit specific modules e.g. "$app"
+- When using import statements make sure to include the extension:
 
+```javascript
+❌: import { something } from './something/index';
+✔: import { something } from './something/index.js';
+```
 
 
 
