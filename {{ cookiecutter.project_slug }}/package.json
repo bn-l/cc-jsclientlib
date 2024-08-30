@@ -2,7 +2,7 @@
     "name": "{{ cookiecutter.project_slug }}",
     "version": "0.0.1",
     "private": {{ cookiecutter.private | lower }},
-    "description": "{{ cookiecutter.private }}",
+    "description": "{{ cookiecutter.description }}",
     "types": "./dist/index.d.ts",
     "type": "module",
     "engines": {
